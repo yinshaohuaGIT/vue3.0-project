@@ -5,7 +5,7 @@ import router from './router'
 import './assets/main.css'
 import store from './store/index'
 import ElementPlus from 'element-plus'
-import 'element-plus/lib/theme-chalk/index.css'
+import 'element-plus/dist/index.css'
 
 const app = createApp(App)
 
