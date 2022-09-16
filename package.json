@@ -2,8 +2,8 @@
   "name": "vue-project",
   "version": "0.0.0",
   "scripts": {
-    // "dev": "webpack-dev-server --config config/webpack.config.dev.js",
-    // "build": "webpack --config config/webpack.config.prod.js",
+    "dev": "vite",
+    "build": "run-p type-check build-only",
     "preview": "vite preview --port 4173",
     "test:unit": "vitest --environment jsdom",
     "build-only": "vite build",
